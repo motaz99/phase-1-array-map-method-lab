@@ -16,7 +16,6 @@ const capitalizedTheFirsChar = (word) => {
 };
 
 const titleCased = () => {
-  const newArr = [];
   const arr = tutorials.map((el) => {
     let words = el.split(" ");
     let targetedWords = words
